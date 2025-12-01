@@ -1,13 +1,5 @@
-Below is a clean, well-structured **README.md** you can drop directly into your Crumble project.
-It explains clearly how to:
-
-- Run Ubuntu on Windows
-- Close Ubuntu / restart WSL
-- Run Docker (both Docker Desktop + WSL-native Docker)
-- Mac-specific differences
-- Cross-platform tips
-
-If you'd like it styled differently (like sections, TOC, badges, or emojis), I can reformat.
+# Password Stuff
+CREATE ROLE postgres WITH LOGIN SUPERUSER PASSWORD 'C@rlsberg9075';
 
 ---
 

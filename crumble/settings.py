@@ -74,14 +74,16 @@ WSGI_APPLICATION = "crumble.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
+# crumble/settings.py
+
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": "crumble_db",
-        "USER": "postgres_user",
-        "PASSWORD": "password",
-        "HOST": "localhost",
-        "PORT": "5432",
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'crumble_db',
+        'USER': 'crumble_user',
+        'PASSWORD': 'C@rlsberg9075',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 

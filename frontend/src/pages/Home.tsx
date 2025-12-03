@@ -4,6 +4,7 @@ import { IconSun, IconMoon } from '@tabler/icons-react';
 import { motion } from 'framer-motion';
 import type { Variants } from 'framer-motion';
 import { crumblePrimary } from '../theme';
+import Cookie from '../components/Cookie';
 
 export default function HomePage() {
   const [colorScheme, setColorScheme] = useLocalStorage<'light' | 'dark'>({
@@ -80,6 +81,9 @@ export default function HomePage() {
       <Text size="lg" mb="xl">
         Welcome to the ultimate bakery management app — recipes, inventory, and COGs made easy.
       </Text>
+
+      {/* Cookie component above feature cards */}
+      <Cookie />
 
       {/* Feature cards */}
       <div
